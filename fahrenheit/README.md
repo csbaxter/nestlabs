@@ -92,10 +92,34 @@ Can you see why this prints with 2 decimal places? Now adapt this to print degre
 
 {% endspoiler %}
 
+## Testing
+### Correctness
+Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below.
+
+```
+check50 cs50/problems/2019/ap/fahrenheit
+```
+
+### Style
+
+If you pass all the check50 test cases, and get a green smiley face when you run things through style50, as with:
+
+```
+style50 fahrenheit.c
+```
+
+If not, don’t worry: it’s just time for a little bit of debugging and/or cleaning up your code.
+
 ## How to Submit
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/fahrenheit
+submit50 cs50/problems/2019/ap/fahrenheit
 ```
+
+You may resubmit any problem as many times as you’d like before the deadline.
+
+Your submission should be graded for correctness within 2 minutes, at which point your score will appear at submit.cs50.io!
+
+This was Fahrenheit.
