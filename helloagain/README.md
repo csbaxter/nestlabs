@@ -58,9 +58,7 @@ within [this sandbox](http://bit.ly/2Qp0a2g).
 
 {% video https://www.youtube.com/watch?v=wSk1KSDUEYA %}
 
-{% spoiler "Hint" %}
-
-### Hints
+{% spoiler "Hints" %}
 
 #### Don't recall how to prompt the user for their name?
 
