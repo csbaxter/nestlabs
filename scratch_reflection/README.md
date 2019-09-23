@@ -9,6 +9,6 @@ You may want to write your reflection in a google doc and then copy it into scra
 
 ## How to Submit
 
-Execute the below, logging in with your GitHub username and password when prompted. For security, you’ll see asterisks (*) instead of the actual characters in your password.
+Execute the line of code below in your terminal, logging in with your GitHub username and password when prompted. For security, you’ll see asterisks (*) instead of the actual characters in your password.
 
 submit50 cs50nestm/checks/2019/scratch_reflection_2019
