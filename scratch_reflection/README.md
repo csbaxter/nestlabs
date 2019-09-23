@@ -7,4 +7,8 @@ In 200 to 300 words, please respond to the following prompts:
 
 You may want to write your reflection in a google doc and then copy it into scratchreflect.txt. 
 
-## To Submit
+## How to Submit
+
+Execute the below, logging in with your GitHub username and password when prompted. For security, you’ll see asterisks (*) instead of the actual characters in your password.
+
+submit50 cs50nestm/checks/2019/scratch_reflection_2019
