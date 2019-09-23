@@ -83,7 +83,7 @@ If you instead see yellow or red smileys, it means your code isn’t correct! Fo
 
 Because check50 is not able to compile style.c, as per the red smiley, odds are you still have an error in your syntax. The other yellow smiley, means that the check is dependent on sytax.c compiling, and so it wasn’t even run.
 
-% next %}
+{% next %}
 
 ### Styling with `style50`
 
