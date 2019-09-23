@@ -115,3 +115,6 @@ Type the line below into your terminal to submit. For security, you'll see aster
 submit50 cs50/2018/ap/hello
 ```
 
+Congratulations! You just completed your first C program! 
+
+This was Hello.
