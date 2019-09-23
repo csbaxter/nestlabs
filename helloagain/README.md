@@ -52,7 +52,11 @@ To try out the staff's implementation of this problem, execute
 ./hello
 </pre>
 
-within <a href="https://sandbox.cs50.io/0c8ebcaa-ca6e-45fa-bff2-043e5e6d83ec">this sandbox</a>.
+within [this sandbox](http://bit.ly/2Qp0a2g).
+
+### Walkthrough
+
+{% video https://www.youtube.com/watch?v=wSk1KSDUEYA %}
 
 {% spoiler "Hint" %}
 
@@ -89,6 +93,23 @@ Recall that, to use `get_string`, you need to include `cs50.h` (in which `get_st
 ```
 {% endspoiler %}
 
+### How to Test Your Code
+
+Execute the below to evaluate the correctness of your code using `check50`. But be sure to compile and test it yourself as well!
+
+```
+check50 cs50/problems/2019/fall/hello
+```
+
+Execute the below to evaluate the style of your code using `style50`.
+
+```
+style50 hello.c
+```
+
+{% next %}
+
+
 {% next "Ready to Submit?" %}
 
 ## How to Submit
@@ -96,5 +117,5 @@ Recall that, to use `get_string`, you need to include `cs50.h` (in which `get_st
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/fall/hello
+submit50 cs50/problems/2019/fall/hello
 ```
