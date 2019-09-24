@@ -66,22 +66,22 @@ check50 cs50/problems/2019/ap/hello
 Assuming your program is correct, you should then see output like:
 
 <div id="green">
-<pre><code>:) syntax.c exists.<br/>
-:) syntax.c compiles.<br/>
-:) prints "This is CS50AP!\n"</code></pre>
+<pre><code>:) hello.c exists.<br/>
+:) hello.c compiles.<br/>
+:) prints "hello, world\n"</code></pre>
 </div>
 
 If you instead see yellow or red smileys, it means your code isn’t correct! For instance, suppose you see something like this:
 
 <div><pre>
-<span id="green">:) syntax.c exists.</span>
-<span id="red">:( syntax.c compiles.
+<span id="green">:) hello.c exists.</span>
+<span id="red">:( hello.c compiles.
     expected exit code 0, not 1</span>
-<span id="orange">:| prints "This is CS50AP!\n"
+<span id="orange">:| prints "hello, world\n"
     can't check until a frown turns upside down</span>
 </pre></div>
 
-Because check50 is not able to compile style.c, as per the red smiley, odds are you still have an error in your syntax. The other yellow smiley, means that the check is dependent on sytax.c compiling, and so it wasn’t even run.
+Because check50 is not able to compile hello.c, as per the red smiley, odds are you still have an error in your syntax. The other yellow smiley, means that the check is dependent on hello.c compiling, and so it wasn’t even run.
 
 {% next %}
 
@@ -92,7 +92,7 @@ Though C doesn't care about how you style your code (in other words code with co
 You can check that your spacing is correct by executing the following at the `$` prompt:
 
 ```
-style50 syntax.c
+style50 hello.c
 ```
 
 If there’s room for improvement in your code’s style, highlighted in red will be any characters you should delete, and highlighted in green will be any characters you should add.
@@ -109,12 +109,9 @@ you are done!
 
 ## How to Submit
 
-Type the line below into your terminal to submit. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+Type the line below into your terminal to submit. No more having to make branches in and uploading your files into github! Juse execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/hello
+submit50 cs50/problems/2019/ap/hello
 ```
 
-Congratulations! You just completed your first C program! 
-
-This was Hello.
