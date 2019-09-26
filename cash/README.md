@@ -53,11 +53,9 @@ Change owed: 0.41
 4
 ```
 
-{% spoiler "Hints" %}
+### Walkthrough
 
-{% video https://www.youtube.com/watch?v=2QZSsaSfB3A %}
-
-{% endspoiler %}
+{% video https://www.youtube.com/watch?v=Y3nWGvqt_Cg %}
 
 ### Staff's Solution
 
@@ -67,7 +65,7 @@ To try out the staff's implementation of this problem, execute
 ./cash
 ```
 
-within [this sandbox](http://bit.ly/2NQ36U4).
+within [this sandbox](http://bit.ly/2VAxlUr).
 
 ### How to Test Your Code
 
