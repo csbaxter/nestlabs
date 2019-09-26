@@ -79,6 +79,19 @@ Does your code work as prescribed when you input
 * letters or words?
 * no input at all, when you only hit Enter?
 
+Then run `check50` and `style50` by typing the following in the terminal:
+
+```
+check50 cs50/problems/2019/ap/cash
+```
+and finally
+
+```
+style50 cash.c
+```
+
+to see if you could format your code better. A red block means to eliminate a space, a green block means to add a space. 
+
 {% next %}
 
 ## How to Submit
@@ -86,13 +99,12 @@ Does your code work as prescribed when you input
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/cash
+submit50 ccs50/problems/2019/ap/cash
 ```
-{% next "Not seeing a 5/5 for style?" %}
+You may resubmit any problem as many times as you’d like before the deadline.
 
-Try executing
+Your submission should be graded for correctness within 2 minutes, at which point your score will appear at submit.cs50.io!
 
-```
-style50 cash.c
-```
-to see if you could format your code better. A red block means to eliminate a space, a green block means to add a space. Look at the CS50 Style Guide on the class website for more information.
+This was Cash.
+
+
