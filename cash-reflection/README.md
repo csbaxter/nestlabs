@@ -11,5 +11,5 @@ Then answer this question: Why do you think the program spec suggested that you 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 submit50 cs50nestm/checks/2019/cash_reflect_2019
+submit50 cs50nestm/checks/2019/cash_reflect_2019
 ```
