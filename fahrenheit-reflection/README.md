@@ -9,5 +9,5 @@ In 150 to 300 words, describe the development process for Fahrenheit, and any ah
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 fahrenheitreflect@cs50nestm/checks
+submit50 cs50nestm/checks/2019/fahrenheit_reflect_2019
 ```
