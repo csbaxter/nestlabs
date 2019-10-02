@@ -138,7 +138,7 @@ style50 pennies.c
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/pennies
+submit50 cs50/problems/2019/ap/pennies
 ```
 
 You may resubmit any problem as many times as you’d like before the deadline.
