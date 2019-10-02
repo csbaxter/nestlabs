@@ -119,15 +119,19 @@ Are your results exactly the same?
 
 {% next %}
 
-### Staff's Solution
+### Testing
 
-To try out the staff's implementation of this problem, execute
+To test the correctness of your program, you may execute the below at the terminal window.
 
 ```
-./pennies
+check50 cs50/problems/2019/ap/pennies
 ```
 
-within [this sandbox](http://bit.ly/2NQ36U4).
+To make sure you get 5/5 for style, you may want to execute style50!.
+
+```
+style50 pennies.c
+```
 
 ## How to Submit
 
@@ -137,10 +141,10 @@ Execute the below, logging in with your GitHub username and password when prompt
 submit50 cs50/2018/ap/pennies
 ```
 
-To make sure you get 5/5 for style, you may want to execute style50 first.
+You may resubmit any problem as many times as you’d like before the deadline.
 
-```
-style50 pennies.c
-```
+Your submission should be graded for correctness within 2 minutes, at which point your score will appear at submit.cs50.io!
+
+This was Pennies.
 
 
