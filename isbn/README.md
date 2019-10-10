@@ -135,9 +135,15 @@ Here are some values to check for:
 
 Are your results exactly the same?
 
+Test out your program with a whole bunch of inputs, both valid and invalid. (We certainly will!) There are lots of valid ISBN-10s on amazon.com. Of course, you should also test your program with check50:
+
+```
+check50 cs50/problems/2019/ap/isbn
+```
+
 {% next %}
 
-### Staff's Solution
+<!-- ### Staff's Solution
 
 To try out the staff's implementation of this problem, execute
 
@@ -145,14 +151,14 @@ To try out the staff's implementation of this problem, execute
 ./isbn
 ```
 
-within [this sandbox](http://bit.ly/2NQ36U4).
+within [this sandbox](http://bit.ly/2NQ36U4). -->
 
 ## How to Submit
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/isbn
+submit50 cs50/problems/2019/ap/isbn
 ```
 
 To make sure you get 5/5 for style, you may want to execute style50 first.
@@ -161,5 +167,5 @@ To make sure you get 5/5 for style, you may want to execute style50 first.
 style50 isbn.c
 ```
 
-After submitting your code, be sure to check your score on cs50.me. If it's not a 5/5 on correctness, go to submissions, and click on check50 for that program to see which tests succeeded and whih failed. You are welcome to correct any error and resubmit!
+After submitting your code, be sure to check your score on submit.cs50.io. If it's not a 5/5 on correctness, go to submissions, and click on check50 for that program to see which tests succeeded and whih failed. You are welcome to correct any error and resubmit!
 
