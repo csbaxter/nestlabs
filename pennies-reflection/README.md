@@ -13,5 +13,5 @@ Explain in detail the algorithm you used (including a loop if you used one)  to 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 penniesreflect@cs50nestm/checks
+submit50 cs50nestm/checks/2019/penniesreflect
 ```
