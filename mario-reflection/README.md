@@ -9,5 +9,4 @@ In marioreflect.txt, describe the development process of Mario, and the struggle
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 marioreflect@cs50nestm/checks
-```
+submit50 cs50nestm/checks/2019/marioreflect
