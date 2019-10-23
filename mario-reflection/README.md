@@ -2,7 +2,7 @@
 
 ## What to write
 
-In marioreflect.txt, describe the development process of Mario, and the struggles and successes you experienced. Describe at least one aha moment during this process. Describe how used nested for loops to solve this problem. 
+In marioreflect.txt, describe the development process of Mario, and the struggles and successes you experienced. Describe at least one aha moment during this process. Describe how you used nested for loops to solve this problem. 
 
 ## How to Submit
 
