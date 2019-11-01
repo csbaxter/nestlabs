@@ -130,10 +130,4 @@ Execute the below, logging in with your GitHub username and password when prompt
 submit50 cs50nestm/checks/2019/initials
 ```
 
-To make sure you get 5/5 for style, you may want to execute style50 first.
-
-```
-style50 initials.c
-```
-
 
