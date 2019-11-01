@@ -110,12 +110,24 @@ for (int i = 0; i < strlen(s); i++)
 
 {% endspoiler %}
 
+## How to Check
+
+```
+check50 cs50nestm/checks/2019/initials
+```
+
+To check style:
+
+```
+style50 initials.c
+```
+
 ## How to Submit
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/initials/less
+submit50 cs50nestm/checks/2019/initials
 ```
 
 To make sure you get 5/5 for style, you may want to execute style50 first.
