@@ -44,12 +44,18 @@ What else do you need to do?
 
 {% next %}
 
+## Testing
+
+If you’d like to check the correctness of your program with check50, you may execute the below.
+
+check50 cs50/problems/2019/ap/friends/pennies
+
 ## How to Submit
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/friends/pennies
+submit50 cs50/problems/2019/ap/friends/pennies
 ```
 ## Style
 
