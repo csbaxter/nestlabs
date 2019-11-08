@@ -34,7 +34,7 @@ Because atof is declared in stdlib.h, you’ll want to #include that header file
 {% next %}
 
 
-Here is Doug's short video on command-line arguments. It's a big longer than Christopher's but it may be helpful to see things from different perspectives!
+Here is Doug's short video on command-line arguments again in case you missed it in Old Friends: Hello!
 
 
 {% video https://www.youtube.com/watch?v=AI6Ccfno6Pk %}
