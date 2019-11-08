@@ -83,12 +83,20 @@ Note what this accomplishes? We check to make sure that the user has supplied th
 
 {% next %}
 
+## How to Check
+
+If you’d like to check the correctness of your program with check50, you may execute the below.
+
+```
+check50 cs50/problems/2019/ap/friends/hello
+```
+
 ## How to Submit
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/friends/hello
+submit50 cs50/problems/2019/ap/friends/hello
 ```
 ## Style
 
