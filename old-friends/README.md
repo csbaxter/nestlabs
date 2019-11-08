@@ -25,10 +25,10 @@ hello.c
 
 How nice to see you again!
 
-Lastly, have a look at Christopher’s short video on command-line arguments. Since we’ll be converting all three of the programs listed above to accept command-line arguments (none of them currently do!), this video should come in handy.
+Lastly, have a look at Doug’s short video on command-line arguments. Since we’ll be converting all three of the programs listed above to accept command-line arguments (none of them currently do!), this video should come in handy.
 
 
-{% video https://www.youtube.com/watch?v=X8PmYwnbLKM&feature=youtu.be %}
+{% video https://youtu.be/AI6Ccfno6Pk %}
 
 If you happen to see (and are confused by!) char * in this and other shorts, know for now that char * simply means string. But more on that soon!
 
