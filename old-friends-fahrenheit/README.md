@@ -77,12 +77,20 @@ if (argc != 2)
 
 {% next %}
 
+## How to Test
+
+If you’d like to check the correctness of your program with check50, you may execute the below.
+
+```
+check50 cs50/problems/2019/ap/friends/fahrenheit
+```
+
 ## How to Submit
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/friends/fahrenheit
+submit50 cs50/problems/2019/ap/friends/fahrenheit
 ```
 ## Style
 
