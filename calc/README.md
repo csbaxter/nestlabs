@@ -194,7 +194,20 @@ and don't forget about modulo
 $ ./calc 8 % 5
 3.000000
 ```
+## Testing
 
+### Correctness
+If you’d like to check the correctness of your program with check50, you may execute the below.
+
+```
+check50 cs50/problems/2019/ap/calc
+```
+
+### Style
+
+```
+style50 calc.c
+```
 
 
 ## How to Submit
@@ -202,13 +215,7 @@ $ ./calc 8 % 5
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/calc
+submit50 cs50/problems/2019/ap/calc
 ```
-
-To make sure you get 5/5 for style, you may want to execute style50 first.
-
-```
-style50 calc.c
-```
-
+inputting your GitHub username and GitHub password as prompted.
 
