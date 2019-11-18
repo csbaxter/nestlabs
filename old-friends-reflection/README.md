@@ -11,5 +11,5 @@ Also answer the following question: Why do you need to use argc and argv[] in yo
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 friendsreflect@cs50nestm/checks
+submit50 cs50nestm/checks/2019/friendsreflect
 ```
