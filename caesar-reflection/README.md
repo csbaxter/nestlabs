@@ -15,6 +15,6 @@ as given in the program spec, and how the lesson using the [interactive rotation
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 caesarreflect@cs50nestm/checks
+submit50 cs50nestm/checks/2019/caesarreflect
 ```
 
