@@ -195,10 +195,24 @@ Now it's time to tie everything together! Instead of shifting the characters by 
 
 {% next %}
 
+## Testing
+
+### Correctness
+
+```
+check50 cs50/problems/2019/ap/caesar
+```
+
+### Style
+
+```
+style50 caesar.c
+```
+
 ## How to Submit
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/caesar
+submit50 cs50/problems/2019/ap/caesar
 ```
