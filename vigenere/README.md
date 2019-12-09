@@ -197,10 +197,16 @@ And as before, be sure to preserve case, but do so only based on the case of the
 
 {% next %}
 
+## How to Check
+
+check50 cs50/problems/2019/ap/vigenere
+
+style50 vigenere.c
+
 ## How to Submit
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/vigenere
+submit50 cs50/problems/2019/ap/vigenere
 ```
