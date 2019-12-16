@@ -2,7 +2,7 @@
 
 ## What to write
 
-[Please read the full description of this assignment here.](https://docs.cs50.net/2018/ap/problems/ui/ui.html) 
+[Please read the full description of this assignment here.](https://docs.cs50.net/2019/ap/problems/ui/ui.html) 
 
 0. The Good, The Bad ...
 This part of your essay should be approximately 300 to 400 words. Pick two different types of user interface and juxtapose them. You aren’t limited to the types mentioned in the program spec, there are numerous others. How are your chosen interfaces alike, and how are they different? Be sure to do a bit of research, beyond watching the videos in the program spec, and **include at least one citation for full credit**.
@@ -18,5 +18,5 @@ Make sure your essay is saved in a file named: ui.txt.
 Then execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/ui
+submit50 cs50/problems/2019/ap/ui
 ```
