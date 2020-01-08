@@ -14,4 +14,4 @@ Save your reflection as 
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
-```cs50nestm/checks/2019/vigenerereflect```
+```submit50 cs50nestm/checks/2019/vigenerereflect```
