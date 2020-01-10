@@ -2,7 +2,7 @@
 
 ## What to write
 
-[Read full description of this assignment here.](https://docs.cs50.net/2018/ap/problems/tech/tech.html) 
+[Read full description of this assignment here.](https://docs.cs50.net/2019/ap/problems/tech/tech.html) 
 
 0. In 600 words, describe a piece of technology. Consider:
 
@@ -29,5 +29,5 @@
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/ap/tech
+submit50 cs50/problems/2019/ap/tech
 ```
