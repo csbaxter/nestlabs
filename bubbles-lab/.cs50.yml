@@ -1,5 +1,10 @@
 
 lab50:
+  window:
+    - editor
+    - readme
+    - terminal
+    - browser
   files:
     - !exclude "*"
     - !include bubbles.html
