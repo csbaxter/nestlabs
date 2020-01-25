@@ -3,7 +3,7 @@ lab50:
     - !exclude "*"
     - !include mypage.html
   window:
-    - editor
+#     - editor
     - readme
-    - terminal
-    - browser
+#     - terminal
+#     - browser
