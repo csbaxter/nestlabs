@@ -54,6 +54,10 @@ If you find a picture of yourself online, or email one to yourself, you can drag
 <a href="https://www.google.com">A website I use all the time!</a>
 ```
 
+Once you understand the structure of an `HTML` page, you can look up the many kinds of `HTML` tags to add other elements to your page as well. Feel free to experiment in this lab. Use the [W3 Schools reference](https://www.w3schools.com/html/) to get ideas on other elements for your page.
+
+Do notice how tags inside of tags are indented. As when working in C, proper indentation makes your page much easier to read.
+
 Because this assignment will result in something different for each person, there’s no check50 for this one. Make sure that you’ve included everything listed above and you have no broken links or permission issues and you should be good to go.
 
 ## How to View Your Web Page
@@ -63,8 +67,6 @@ Type http-server in the terminal and then refresh the browser tab!
 ## To get more help with HTML and CSS
 
 * [HTML](https://www.w3schools.com/html/)
-
-* [CSS](https://www.w3schools.com/css/)
 
 ## How to Submit
 
