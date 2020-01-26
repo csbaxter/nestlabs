@@ -39,7 +39,7 @@ With your name instead of mine!
 If you find a picture of yourself online, or email one to yourself, you can drag the '.jpg' or '.png' file into your workspace. Make sure the name of the file has no spaces in it. If I had a picture saved as a `mtanzosh.png` in my workspace (click on the directory sidebar foler icon to the left of the `mypage.html` tab to see the files in your workspace), I could then import it as
 
 ```html
-<img alt="Tanzosh src="mtanzosh.png">
+<img alt="Tanzosh" src="mtanzosh.png">
 ```                                    
 
 **Third**, add a paragraph about yourself, under the `<img>` tag using paragraph tabs:
