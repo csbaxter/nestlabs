@@ -2,7 +2,7 @@
 
 ## Make your page look cool!
 
-To style webpages, we’ll use another language, CSS, Cascading Style Sheets.
+To style webpages, we’ll use another language, CSS, Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media and is a very important part of web design.
 
 Consider joining Joseph for a tour of CSS:
 
@@ -10,7 +10,7 @@ Consider joining Joseph for a tour of CSS:
 
 {% next %}
 
-# What You Can Do with CSS
+## What You Can Do with CSS
 
 There are lot more things you can do with CSS.
 
@@ -39,9 +39,19 @@ into the terminal window, and then click on the refresh button under the brower 
 
 The page has a picture of my dog, Prudence, but it's not styled very well. Now that you know `HTML` feel free to edit the text, and add your own picture instead.
 
-Let's start by centering the heading. There are many ways of doing this with `CSS`. You can add style attributes directly into your `HTML` tags, use a `<style>` element in the `<head>` section, or link an external `CSS` file that you link into the `<head>` section of your `HTML`.
- 
+Let's start by centering the heading. There are many ways of doing this with `CSS`. You can add style attributes directly into your `HTML` tags, use a `<style>` element in the `<head>` section, or link an external `CSS` file that you link into the `<head>` section of your `HTML`. 
 
+We'll add our `CSS` to the top of the `HTML` file on the right in between the `<style></style>` tags. If we want to center all `h1` heading tags, we can use this tag directly in our CSS as follows:
+
+```css
+<style>
+  h1 {
+    text-align: center;
+  }
+</style> 
+```
+
+Add this code into your `HTML` on the right and see what happens.
 
 **Second**, add a picture of yourself, or something you like using `<img>` tags.
 
