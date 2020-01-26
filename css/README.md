@@ -55,44 +55,62 @@ Add this code into your `HTML` on the right and see what happens.
 
 **Next**, let's fix the size of the image. The image I imported, `prudence.jpg` is much too big for this web page, and perhaps if you imported your own image, you would like to resize that as well. Again, sizes of elements can be determined by pixels, or percentage of the web page (or as we'll soon see a div that it's contained in). Let's make this image exactly 300 pixels wide. If we don't give it a width, it will automatically be sized to a height that's proportional.
 
-If you find a picture of yourself online, or email one to yourself, you can drag the '.jpg' or '.png' file into your workspace. Make sure the name of the file has no spaces in it. If I had a picture saved as a `mtanzosh.png` in my workspace (click on the directory sidebar foler icon to the left of the `mypage.html` tab to see the files in your workspace), I could then import it as
+To do this add a unique identifier or `id` to the `<img>` tag for your image. If you chose to use the term "prudence" as your `id`, your code would look like this:
 
 ```html
-<img alt="Tanzosh" src="mtanzosh.png">
-```                                    
-
-**Third**, add a paragraph about yourself, under the `<img>` tag using paragraph tags:
-
-```html
-<p>This is information about me!</p>
+<img id="prudence" alt="Prudence" src="prudence.png">
 ```
 
-**Fourth**, add a link to your favorite website, using an anchor tag:
+Then we could add the new width of our image into the `<style>` section on top:
 
-```html
-<a href="https://www.google.com">A website I use all the time!</a>
+```css
+<style>
+  h1 {
+    text-align: center;
+  }
+  #prudence {
+    width: 300px;
+  }
+</style> 
 ```
 
-And change the text in between the `<title></title>` tags and notice what happens to your Chrome (or other browser) tab on the top of your page!
+Notice we use a hashtag, `#` in front of the `id`, "prudence". This is called a `CSS Selector`. We use a `#` in front of an `id` in `CSS` to tell our program that we are refering to the element with an `id` of "prudence.
 
-Once you understand the structure of an `HTML` page, you can look up the many kinds of `HTML` tags to add other elements to your page as well. Feel free to experiment in this lab. Use the [W3 Schools reference](https://www.w3schools.com/html/) to get ideas on other elements for your page.
+To keep the text and image from being so close to the left margin of our web page, we can wrap this in a `div` or a section of our `HTML` document, with a width of 80% of whatever width our browser is open to. Let's give this `div` a `class` named "continer" and style it with `CSS`. A class also identifies code in between it's open and close `HTML` tags, however unlike an `id` it's not necessarily unique. We use a dot in front of the clas name to style it in `CSS`.
 
-Do notice how tags inside of tags are indented. As when working in C, proper indentation makes your page much easier to read.
+So our `HTML` might now look something like this:
 
-Because this assignment will result in something different for each person, there’s no check50 for this one. There is also no style50 for HTML, so check the indendentation yourself. Make sure that you’ve included everything listed above and you have no broken links and you should be good to go.
+```html
+<div class="container">
+  <p>Prudence is a rescue dog we adopted three years ago.</p>
+  <img id="prudence" alt="Prudence" src="prudence.png">
+  <p>We adopted her from <a href="https://www.bideawee.org/">Bidawee</a>.</p>
+</div>       
+```
+
+We can describe the width of this `div` in `CSS` as 80%. We can also center the entire `div` in our browswer page by using `margin: auto`. Inside the `<style></style>` tags and after the close brace styling the "prudence" `id`, add:
+
+```css
+.container {
+  width: 80%;
+  margin: auto;
+}
+```
+
+Feel free to browse around the `CSS` pages in [W3 Schools](https://www.w3schools.com/css/) and continue to style your page with additional featuers such as different fonts, colors, and sizes of your elements. Feel free to experiment and have fun!
 
 ## How to View Your Web Page
 
 Type http-server in the terminal and then refresh the browser tab!
 
-## To get more help with HTML
+## To get more help with CSS
 
-* [HTML](https://www.w3schools.com/html/)
+* [CSS](https://www.w3schools.com/css/)
 
 ## How to Submit
 
 You may then submit by typing in at the command line:
 
-submit50 cs50nestm/checks/2019/html
+submit50 cs50nestm/checks/2019/css
 
 
