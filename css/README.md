@@ -80,7 +80,7 @@ Notice we use a hashtag, `#` in front of the `id`, "prudence". This is called a 
 
 {% next %}
 
-To keep the text and image from being so close to the left margin of our web page, we can wrap this in a `div` or a section of our `HTML` document, with a width of 80% of whatever width our browser is open to. Let's give this `div` a `class` named "continer" and style it with `CSS`. A class also identifies code in between it's open and close `HTML` tags, however unlike an `id` it's not necessarily unique. We use a dot in front of the clas name to style it in `CSS`.
+To keep the text and image from being so close to the left margin of our web page, we can wrap this in a `div` or a section of our `HTML` document, with a width of 80% of whatever width our browser is open to. Let's give this `div` a `class` named "continer" and style it with `CSS`. A class also identifies code in between it's open and close `HTML` tags, however unlike an `id` it's not necessarily unique. We use a dot in front of the class name (as in `.container`) to refer to a class in `CSS`.
 
 So our `HTML` might now look something like this:
 
