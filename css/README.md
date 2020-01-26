@@ -53,6 +53,8 @@ We'll add our `CSS` to the top of the `HTML` file on the right in between the `<
 
 Add this code into your `HTML` on the right and see what happens.
 
+{% next %}
+
 **Next**, let's fix the size of the image. The image I imported, `prudence.jpg` is much too big for this web page, and perhaps if you imported your own image, you would like to resize that as well. Again, sizes of elements can be determined by pixels, or percentage of the web page (or as we'll soon see a div that it's contained in). Let's make this image exactly 300 pixels wide. If we don't give it a width, it will automatically be sized to a height that's proportional.
 
 To do this add a unique identifier or `id` to the `<img>` tag for your image. If you chose to use the term "prudence" as your `id`, your code would look like this:
@@ -76,6 +78,8 @@ Then we could add the new width of our image into the `<style>` section on top:
 
 Notice we use a hashtag, `#` in front of the `id`, "prudence". This is called a `CSS Selector`. We use a `#` in front of an `id` in `CSS` to tell our program that we are refering to the element with an `id` of "prudence.
 
+{% next %}
+
 To keep the text and image from being so close to the left margin of our web page, we can wrap this in a `div` or a section of our `HTML` document, with a width of 80% of whatever width our browser is open to. Let's give this `div` a `class` named "continer" and style it with `CSS`. A class also identifies code in between it's open and close `HTML` tags, however unlike an `id` it's not necessarily unique. We use a dot in front of the clas name to style it in `CSS`.
 
 So our `HTML` might now look something like this:
@@ -98,12 +102,12 @@ Inside the `<style></style>` tags and after the close brace styling the "prudenc
   margin: auto;
 }
 ```
+{% next %}
+
+## Now add your own CSS!
 
 Feel free to browse around the `CSS` pages in [W3 Schools](https://www.w3schools.com/css/) and continue to style your page with additional featuers such as different fonts, colors, and sizes of your elements. Feel free to experiment and have fun!
 
-## How to View Your Web Page
-
-Type http-server in the terminal and then refresh the browser tab!
 
 ## To get more help with CSS
 
