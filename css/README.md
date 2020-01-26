@@ -1,6 +1,6 @@
 # CSS
 
-## Make your page look cool!
+## Make Your Web Page Look Cool!
 
 To style webpages, we’ll use another language, CSS, Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media and is a very important part of web design.
 
@@ -27,7 +27,7 @@ There are lot more things you can do with CSS.
 
 {% next %}
 
-# Where do I start?
+## Where do I start?
 
 Start by previewing the distribution code on the right. Remember to preview a web page, type in:
 
@@ -53,7 +53,7 @@ We'll add our `CSS` to the top of the `HTML` file on the right in between the `<
 
 Add this code into your `HTML` on the right and see what happens.
 
-**Second**, add a picture of yourself, or something you like using `<img>` tags.
+**Next**, let's fix the size of the image. The image I imported, `prudence.jpg` is much too big for this web page, and perhaps if you imported your own image, you would like to resize that as well. Again, sizes of elements can be determined by pixels, or percentage of the web page (or as we'll soon see a div that it's contained in). Let's make this image exactly 300 pixels wide. If we don't give it a width, it will automatically be sized to a hight that's proportional.
 
 If you find a picture of yourself online, or email one to yourself, you can drag the '.jpg' or '.png' file into your workspace. Make sure the name of the file has no spaces in it. If I had a picture saved as a `mtanzosh.png` in my workspace (click on the directory sidebar foler icon to the left of the `mypage.html` tab to see the files in your workspace), I could then import it as
 
