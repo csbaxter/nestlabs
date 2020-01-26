@@ -1,20 +1,35 @@
-# HTML
+# CSS
 
-## Getting Ready
+## Make your page look cool!
 
-Beyond introducing you to web programming, the overarching goal of this problem is to empower you to teach yourself new languages so that you can stand on your own at the end of the year. We’ll guide you through each, but if you nonetheless find yourself Googling and asking lots of questions of classmates and staff, rest assured you’re doing it right!
+To style webpages, we’ll use another language, CSS, Cascading Style Sheets.
 
-First consider joining Daven for a tour of `HTML`. Focus for now on the `HTML`. We'll add in `CSS` in the next lab.
+Consider joining Joseph for a tour of CSS:
 
-{% video https://www.youtube.com/watch?v=dM5V1epAbSs %}
+{% video https://www.youtube.com/watch?v=kg0ZOmUREwc %}  
 
 {% next %}
 
-# What do I do now?
+# What You Can Do with CSS
 
-Note there is already an `HTML` file, `mypage.html` set up for you in the sandbox on the right. Your job is to add several `HTML` tags with a title, some text, a picture and a link.
+There are lot more things you can do with CSS.
 
-To view the your website, type in
+* You can easily apply same style rules on multiple elements.
+* You can control the presentation of multiple pages of a website with a single style sheet.
+* You can present the same page differently on different devices.
+* You can style dynamic states of elements such as hover, focus, etc. that isn't possible otherwise.
+* You can change the position of an element on a web page without changing the markup.
+* You can alter the display of existing HTML elements.
+* You can transform elements like scale, rotate, skew, etc. in 2D or 3D space.
+* You can create animations and transitions effects without using any JavaScript.
+
+*- from tutorialrepublic.com*
+
+{% next %}
+
+# Where do I start?
+
+Start by previewing the distribution code on the right. Remember to preview a web page, type in:
 
 ```
 http-server
@@ -22,17 +37,11 @@ http-server
 
 into the terminal window, and then click on the refresh button under the brower tab on the right. Then click on the `mypage.html` link and you can preview your page.
 
-Once `http-server` is running, you can preview any changes just by clicking on the refresh button.
+The page has a picture of my dog, Prudence, but it's not styled very well. Now that you know `HTML` feel free to edit the text, and add your own picture instead.
 
-**First**, let's add a heading to the top of your page.
+Let's start by centering the heading. There are many ways of doing this with `CSS`. You can add style attributes directly into your `HTML` tags, use a `<style>` element in the `<head>` section, or link an external `CSS` file that you link into the `<head>` section of your `HTML`.
  
-Right under the first `<body>` tag, add an open and close `<h1>` tag with your name as follows:
 
-```html
-<h1>Margaret Tanzosh</h1>
-```
-
-With your name instead of mine!
 
 **Second**, add a picture of yourself, or something you like using `<img>` tags.
 
