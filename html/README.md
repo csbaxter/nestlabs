@@ -72,6 +72,6 @@ Type http-server in the terminal and then refresh the browser tab!
 
 You may then submit by typing in at the command line:
 
-check50 cs50nestm/checks/2019/html
+submit50 cs50nestm/checks/2019/html
 
 
