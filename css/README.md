@@ -88,7 +88,9 @@ So our `HTML` might now look something like this:
 </div>       
 ```
 
-We can describe the width of this `div` in `CSS` as 80%. We can also center the entire `div` in our browswer page by using `margin: auto`. Inside the `<style></style>` tags and after the close brace styling the "prudence" `id`, add:
+We can describe the width of this `div` in `CSS` as 80%. We can also center the entire `div` in our browswer page by using `margin: auto`. 
+
+Inside the `<style></style>` tags and after the close brace styling the "prudence" `id`, add:
 
 ```css
 .container {
