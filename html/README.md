@@ -58,7 +58,7 @@ Once you understand the structure of an `HTML` page, you can look up the many ki
 
 Do notice how tags inside of tags are indented. As when working in C, proper indentation makes your page much easier to read.
 
-Because this assignment will result in something different for each person, there’s no check50 for this one. Make sure that you’ve included everything listed above and you have no broken links and you should be good to go.
+Because this assignment will result in something different for each person, there’s no check50 for this one. There is also no style50 for HTML, so check the indendentation yourself. Make sure that you’ve included everything listed above and you have no broken links and you should be good to go.
 
 ## How to View Your Web Page
 
