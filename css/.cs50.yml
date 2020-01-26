@@ -2,6 +2,7 @@ lab50:
   files:
     - !exclude "*"
     - !include mypage.html
+    - !include prudence.jpg
   window:
     - editor
     - readme
