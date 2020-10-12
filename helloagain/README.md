@@ -4,7 +4,7 @@
 
 {% next %}
 
-## Enhancing our first program
+## Getting Started
 
 Before starting on this program, make sure you complete the code-a-long in class to create your first program `hello.c`. Your assignment will be to make this program a bit more interesting now by adding user input and saying hello, followed by whatever name you choose to input. 
 
