@@ -80,7 +80,7 @@ Does your code work as prescribed when you input
 Then run `check50` and `style50` by typing the following in the terminal:
 
 ```
-check50 cs50/problems/2019/ap/cash
+check50 cs50/problems/2020/x/cash
 ```
 and finally
 
@@ -97,7 +97,7 @@ to see if you could format your code better. A red block means to eliminate a sp
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/problems/2019/ap/cash
+submit50 cs50/problems/2020/x/cash
 ```
 You may resubmit any problem as many times as you’d like before the deadline.
 
