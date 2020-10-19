@@ -124,7 +124,7 @@ Are your results exactly the same?
 To test the correctness of your program, you may execute the below at the terminal window.
 
 ```
-check50 cs50/problems/2020/ap/pennies
+check50 cs50/problems/2019/ap/pennies
 ```
 
 To make sure you get 5/5 for style, you may want to execute style50!.
@@ -138,7 +138,7 @@ style50 pennies.c
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/problems/2020/ap/pennies
+submit50 cs50/problems/2019/ap/pennies
 ```
 
 You may resubmit any problem as many times as you’d like before the deadline.
