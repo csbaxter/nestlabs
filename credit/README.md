@@ -72,23 +72,27 @@ Test out your program with a whole bunch of inputs, both valid and invalid. (We 
 
 If your program behaves incorrectly on some inputs (or doesn't compile at all), time to debug!
 
-{% spoiler "Staff's Solution" %}
-
-To try out the staff's own implementation of `credit`, execute
-
-```
-./credit
-```
-within [this sandbox](http://bit.ly/2NQ36U4).
-
-{% endspoiler %}
 
 {% next %}
+
+## How to Test Your Code
+
+You can also execute the below to evaluate the correctness of your code using check50. But be sure to compile and test it yourself as well!
+
+```
+check50 cs50/problems/2020/x/credit
+```
+
+Execute the below to evaluate the style of your code using style50.
+
+```
+style50 credit.c
+```
 
 ## How to Submit
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50/2018/fall/credit
+submit50 cs50/problems/2020/x/credit
 ```
