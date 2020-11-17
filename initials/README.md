@@ -113,7 +113,7 @@ for (int i = 0; i < strlen(s); i++)
 ## How to Check
 
 ```
-check50 cs50nestm/checks/2019/initials
+check50 cs50nestm/checks/2020/initials
 ```
 
 To check style:
