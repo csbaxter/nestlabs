@@ -127,7 +127,7 @@ style50 initials.c
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
 ```
-submit50 cs50nestm/checks/2019/initials
+submit50 cs50nestm/checks/2020/initials
 ```
 
 
