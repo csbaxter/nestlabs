@@ -1,9 +1,7 @@
 lab50:
-  window:
-    - editor
-    - readme
-    - terminal
   files:
     - !exclude "*"
-    - !include "caesar.c"
-    - !include 'pseudocode.txt"
+    - !include caesar.c
+    - !include pseudocode.txt
+  window:
+    - editor
