@@ -5,3 +5,5 @@ lab50:
     - !include pseudocode.txt
   window:
     - editor
+    - readme
+    - terminal
